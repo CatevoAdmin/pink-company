@@ -28,7 +28,7 @@ function renderMainView() {
         </p>
         
         <div class="flex flex-col items-center space-y-8">
-          <a href="mailto:hello@pinkcompany.com" 
+          <a href="mailto:pinkcompany@execis.com" 
              class="inline-block px-8 py-3 border border-text-main text-text-main font-sans text-sm tracking-widest uppercase hover:bg-pink-vibrant hover:border-pink-vibrant hover:text-white transition-all duration-300 ease-out shadow-sm hover:shadow-pink-200">
             Make an acquisition enquiry
           </a>
