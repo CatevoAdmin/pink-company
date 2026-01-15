@@ -33,10 +33,7 @@ function renderMainView() {
             Make an acquisition enquiry
           </a>
           
-          <button id="toggle-view" class="group text-sm text-gray-500 hover:text-pink-vibrant transition-colors duration-300 font-sans mt-8 flex items-center gap-2">
-            See one possible expression 
-            <span class="group-hover:translate-x-1 transition-transform duration-300 text-pink-accent">→</span>
-          </button>
+
         </div>
       </div>
 
@@ -45,10 +42,7 @@ function renderMainView() {
     </main>
   `;
 
-  document.getElementById('toggle-view').addEventListener('click', () => {
-    isBrandView = true;
-    render();
-  });
+
 }
 
 function renderBrandView() {
